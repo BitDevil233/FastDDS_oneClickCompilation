@@ -1,0 +1,166 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"thirdparty/memory/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 122,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 137,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 139,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"thirdparty/memory/src/libfoonathan_memory-0.7.2-dbg.so"
+			],
+			"targetId" : "foonathan_memory::@57e5e40ceea0f328e339",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/foonathan_memory/foonathan/memory",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/memory/src/config_impl.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/foonathan_memory/foonathan/memory/detail",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/memory/src/container_node_sizes_impl.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/foonathan_memory/foonathan/memory",
+			"paths" : 
+			[
+				"thirdparty/memory/include/foonathan/memory/aligned_allocator.hpp",
+				"thirdparty/memory/include/foonathan/memory/allocator_storage.hpp",
+				"thirdparty/memory/include/foonathan/memory/allocator_traits.hpp",
+				"thirdparty/memory/include/foonathan/memory/config.hpp",
+				"thirdparty/memory/include/foonathan/memory/container.hpp",
+				"thirdparty/memory/include/foonathan/memory/debugging.hpp",
+				"thirdparty/memory/include/foonathan/memory/default_allocator.hpp",
+				"thirdparty/memory/include/foonathan/memory/deleter.hpp",
+				"thirdparty/memory/include/foonathan/memory/error.hpp",
+				"thirdparty/memory/include/foonathan/memory/fallback_allocator.hpp",
+				"thirdparty/memory/include/foonathan/memory/malloc_allocator.hpp",
+				"thirdparty/memory/include/foonathan/memory/heap_allocator.hpp",
+				"thirdparty/memory/include/foonathan/memory/iteration_allocator.hpp",
+				"thirdparty/memory/include/foonathan/memory/joint_allocator.hpp",
+				"thirdparty/memory/include/foonathan/memory/memory_arena.hpp",
+				"thirdparty/memory/include/foonathan/memory/memory_pool.hpp",
+				"thirdparty/memory/include/foonathan/memory/memory_pool_collection.hpp",
+				"thirdparty/memory/include/foonathan/memory/memory_pool_type.hpp",
+				"thirdparty/memory/include/foonathan/memory/memory_resource_adapter.hpp",
+				"thirdparty/memory/include/foonathan/memory/memory_stack.hpp",
+				"thirdparty/memory/include/foonathan/memory/namespace_alias.hpp",
+				"thirdparty/memory/include/foonathan/memory/new_allocator.hpp",
+				"thirdparty/memory/include/foonathan/memory/segregator.hpp",
+				"thirdparty/memory/include/foonathan/memory/smart_ptr.hpp",
+				"thirdparty/memory/include/foonathan/memory/static_allocator.hpp",
+				"thirdparty/memory/include/foonathan/memory/std_allocator.hpp",
+				"thirdparty/memory/include/foonathan/memory/temporary_allocator.hpp",
+				"thirdparty/memory/include/foonathan/memory/threading.hpp",
+				"thirdparty/memory/include/foonathan/memory/tracking.hpp",
+				"thirdparty/memory/include/foonathan/memory/virtual_memory.hpp",
+				"cmake-build-debug/thirdparty/memory/src/container_node_sizes_impl.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/foonathan_memory/foonathan/memory/detail",
+			"paths" : 
+			[
+				"thirdparty/memory/include/foonathan/memory/detail/align.hpp",
+				"thirdparty/memory/include/foonathan/memory/detail/assert.hpp",
+				"thirdparty/memory/include/foonathan/memory/detail/container_node_sizes.hpp",
+				"thirdparty/memory/include/foonathan/memory/detail/debug_helpers.hpp",
+				"thirdparty/memory/include/foonathan/memory/detail/ebo_storage.hpp",
+				"thirdparty/memory/include/foonathan/memory/detail/free_list.hpp",
+				"thirdparty/memory/include/foonathan/memory/detail/free_list_array.hpp",
+				"thirdparty/memory/include/foonathan/memory/detail/ilog2.hpp",
+				"thirdparty/memory/include/foonathan/memory/detail/lowlevel_allocator.hpp",
+				"thirdparty/memory/include/foonathan/memory/detail/memory_stack.hpp",
+				"thirdparty/memory/include/foonathan/memory/detail/small_free_list.hpp",
+				"thirdparty/memory/include/foonathan/memory/detail/utility.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/foonathan_memory/cmake",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/memory/src/cmake/foonathan_memory-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "thirdparty/memory/src",
+		"source" : "thirdparty/memory/src"
+	}
+}

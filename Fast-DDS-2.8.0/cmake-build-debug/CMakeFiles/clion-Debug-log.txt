@@ -1,0 +1,69 @@
+/home/zhouancaho/Downloads/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/zhouancaho/Downloads/CLion-2024.2.2/clion-2024.2.2/bin/ninja/linux/x64/ninja -G Ninja -S /home/zhouancaho/Downloads/fast-dds-oneKeyCompile/Fast-DDS-2.8.0 -B /home/zhouancaho/Downloads/fast-dds-oneKeyCompile/Fast-DDS-2.8.0/cmake-build-debug
+CMake Deprecation Warning at thirdparty/fastcdr/CMakeLists.txt:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring Fast CDR
+-- Version: 1.0.25
+-- To change the version modify the file configure.ac
+-- Performing Test SUPPORTS_CXX14
+-- Performing Test SUPPORTS_CXX14 - Success
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of long double
+-- Check size of long double - done
+-- Check size of __float128
+-- Check size of __float128 - done
+-- Performing Test HAVE_CXX_ATOMIC_NOFLAG
+-- Performing Test HAVE_CXX_ATOMIC_NOFLAG - Success
+-- Getting container node sizes
+-- Version: 2.8.0
+-- Performing Test SUPPORTS_NOTFOUND
+-- Performing Test SUPPORTS_NOTFOUND - Success
+-- Enforced cxx_std_11 CMake feature
+-- Found Asio 1.18.1: /usr/include
+-- Found Asio
+-- Found TinyXML2
+-- Found foonathan_memory: 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_kill
+-- Looking for pthread_kill - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- Thirdparty/boost compiled OK
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+-- OpenSSL library 3.0.2 found...
+-- Performing Test ATOMIC_WITHOUT_LIB
+-- Performing Test ATOMIC_WITHOUT_LIB - Success
+-- Performing Test HAS_VERSION_SCRIPT_SUPPORT
+-- Performing Test HAS_VERSION_SCRIPT_SUPPORT - Success
+-- Using linker version script to select exported symbols
+-- Performing Test SUPPORTS_CXX11
+-- Performing Test SUPPORTS_CXX11 - Success
+-- Configuring done (6.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/zhouancaho/Downloads/fast-dds-oneKeyCompile/Fast-DDS-2.8.0/cmake-build-debug

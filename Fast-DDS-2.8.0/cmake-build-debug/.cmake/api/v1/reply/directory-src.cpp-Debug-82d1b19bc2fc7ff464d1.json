@@ -1,0 +1,153 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/cpp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 544,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 563,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 578,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 594,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 678,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "headers",
+			"destination" : "include",
+			"paths" : 
+			[
+				"include/fastrtps"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "headers",
+			"destination" : "include",
+			"paths" : 
+			[
+				"include/fastdds"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "include/fastrtps",
+			"paths" : 
+			[
+				"cmake-build-debug/include/fastrtps/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/cpp/libfastrtps.so.2.8.0",
+				"src/cpp/libfastrtps.so.2.8"
+			],
+			"targetId" : "fastrtps::@75938a602bfe1332d7ce",
+			"targetIndex" : 30,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/cpp/libfastrtps.so"
+			],
+			"targetId" : "fastrtps::@75938a602bfe1332d7ce",
+			"targetIndex" : 30,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "cmake",
+			"destination" : "share/fastrtps/cmake",
+			"exportName" : "fastrtps-dynamic-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "fastrtps::@75938a602bfe1332d7ce",
+					"index" : 30
+				},
+				{
+					"id" : "eProsima_atomic::@75938a602bfe1332d7ce",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"src/cpp/CMakeFiles/Export/c96f171e5a3ff9214735fc841243948a/fastrtps-dynamic-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "cmake",
+			"destination" : "share/fastrtps/cmake",
+			"paths" : 
+			[
+				"cmake-build-debug/cmake/config/fastrtps-config.cmake",
+				"cmake-build-debug/cmake/config/fastrtps-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/cpp",
+		"source" : "src/cpp"
+	}
+}

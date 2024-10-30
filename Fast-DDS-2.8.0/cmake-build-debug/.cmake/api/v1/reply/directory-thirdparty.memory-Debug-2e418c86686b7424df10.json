@@ -1,0 +1,68 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"thirdparty/memory/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/foonathan_memory",
+			"paths" : 
+			[
+				"thirdparty/memory/LICENSE",
+				"thirdparty/memory/README.md"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/foonathan_memory/cmake",
+			"exportName" : "foonathan_memoryTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "foonathan_memory::@57e5e40ceea0f328e339",
+					"index" : 31
+				}
+			],
+			"paths" : 
+			[
+				"thirdparty/memory/CMakeFiles/Export/9a94466ee0fd3d9a67069e431d7c387f/foonathan_memory-config.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "thirdparty/memory",
+		"source" : "thirdparty/memory"
+	}
+}
